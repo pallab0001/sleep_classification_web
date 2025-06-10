@@ -4,6 +4,5 @@ scikit-learn      # SVM model you load with joblib (released 05-Jun-2025)
 numpy            # Numerical arrays, required by scikit-learn (released 07-Jun-2025)
 joblib           # Model/transformer (de)serialization (released 23-May-2025)
 Jinja2           # Template engine for HTML pages (released 05-Mar-2025)
-python-multipart # Enables FastAPI form/file uploads (released 16-Dec-2024)
-flask           # Alternative web framework (released 15-Apr-2025)
-gunicorn      # Alternative ASGI server (released 10-Apr-2025)
+python-multipart # Enables FastAPI form/file uploads (released 16-Dec-2024)           # Alternative web framework (released 15-Apr-2025)
+uvicorn      
