@@ -1,0 +1,44 @@
+/* static/styles.css */
+/* Light mode styles */
+body {
+  background-color: #fdfdfd;
+  color: #111;
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+header, footer {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+}
+nav a {
+  margin-right: 15px;
+  color: white;
+  text-decoration: none;
+}
+textarea {
+  width: 100%;
+  max-width: 600px;
+}
+button {
+  padding: 8px 16px;
+}
+
+/* Dark mode styles (toggled) */
+.dark-mode {
+  background-color: #222;
+  color: #ddd;
+}
+.dark-mode header, .dark-mode footer {
+  background-color: #555;
+}
+.dark-mode textarea, .dark-mode button {
+  background-color: #333;
+  color: #ddd;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+  header, footer { text-align: center; }
+  nav a { display: block; margin: 5px 0; }
+}
