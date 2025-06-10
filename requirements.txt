@@ -6,3 +6,4 @@ joblib           # Model/transformer (de)serialization (released 23-May-2025)
 Jinja2           # Template engine for HTML pages (released 05-Mar-2025)
 python-multipart # Enables FastAPI form/file uploads (released 16-Dec-2024)           # Alternative web framework (released 15-Apr-2025)
 uvicorn      
+gunicorn        # ASGI server to run FastAPI (released 01-Jun-2025)
